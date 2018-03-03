@@ -148,7 +148,7 @@ module.exports = {
 ```
 
 Gatsby reads the site's config file when starting. Here we tell it to look for a
-plugin named `gatsby-plugin-typography`. Gatsby knows to look for plugins that
+plugin named `gatsby-plugin-typography`. The path is not required since Gatsby knows to look for plugins that
 are NPM packages, so it will find the package we installed previously.
 
 Now run `gatsby develop`. Once you load the site, if you inspect the generated
@@ -244,7 +244,7 @@ export default typography;
 ```
 
 Then set this module to be used by `gatsby-plugin-typography` as its config in
-our `gatsby-config.js` file.
+our `gatsby-config.js` file. Replace the `plugins` array we created earlier with:
 
 ```javascript{2..9}
 module.exports = {
@@ -374,7 +374,7 @@ export default () => (
 
 You'll notice we imported the `Container` component we just created.
 
-Your page should now look like:
+Manually navigate to `http://localhost:8000/about-css-modules`. Your page should now look like:
 
 ![css-modules-1](css-modules-1.png)
 
