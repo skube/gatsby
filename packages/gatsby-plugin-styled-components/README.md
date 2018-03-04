@@ -25,4 +25,4 @@ module.exports = {
 #### v2.0.1
 
 `styled-components` is moved to a peer dependency. Installing the package
-alongside `gatsby-plugin-styled-components` is now required. Use `yarn add styled-components --save`
+alongside `gatsby-plugin-styled-components` is now required. Use `yarn add styled-components`
